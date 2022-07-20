@@ -1,21 +1,26 @@
 # Adversarial Attacks, Defenses, & Robustness 
-A repository compiling SOTA methods in adversarial attacks, defenses, and measures of robustness. This repository uses RobustBench, AutoAttack, and Foolbox as a foundation for broader development into other domains, e.g. from CIFAR10 to other images initially, proceeding to structured and partially structured reports, unstructured text, and eventually graph models. 
+A repository compiling SOTA methods in adversarial attacks, defenses, and measures of robustness. This repository uses [RobustBench](https://robustbench.github.io/), [AutoAttack](https://github.com/fra31/auto-attack), and [Foolbox](https://github.com/bethgelab/foolbox) as a foundation for broader development into other domains, e.g. from CIFAR10 to other images initially, proceeding to structured and partially structured reports, unstructured text, and eventually graph models. 
 ## Adversarial Attacks
 Some of the first reported deep learning attacks were documented in Papernot et al. 2016. \
 ![Papernot-MNIST_attacks](https://user-images.githubusercontent.com/30714137/179857022-703fa4b5-231e-4155-b626-f95c4681555b.png)
 
 ### *-box Attacks
+Ground assumption: the model under attack has already been trained.
 
 #### White-box Attacks
-
+White-box attacks assume internal knowledge of the model during attack model training and attacks.
 
 #### Grey-box Attacks
+Grey-box models assume internal knowledge of the model during attack model training but not during attacks.
 
 #### Black-box Attacks
+Black-box models assume no internal knowledge of the model, though some basic knowledge of the domain and training data are assumed.
 
 ### Data Poisoning
+Ground assumption: the model under attack has not yet been trained. Rather, the training data is 'poisoned' with samples that lead to model misclassification after training.
 
 ### Physical Attacks
+Ground assumption: the model under attack has already been trained. The attacker can manipulate the sensed environment.
 
 ## Adversarial Defenses
 
