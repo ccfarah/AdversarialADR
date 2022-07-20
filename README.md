@@ -1,5 +1,5 @@
 # Adversarial Attacks, Defenses, & Robustness 
-A repository compiling SOTA methods in adversarial attacks, defenses, and measures of robustness.
+A repository compiling SOTA methods in adversarial attacks, defenses, and measures of robustness. This repository uses RobustBench, AutoAttack, and Foolbox as a foundation for broader development into other domains, e.g. from CIFAR10 to other images initially, proceeding to structured and partially structured reports, unstructured text, and eventually graph models. 
 ## Adversarial Attacks
 Some of the first reported deep learning attacks were documented in Papernot et al. 2016. \
 ![Papernot-MNIST_attacks](https://user-images.githubusercontent.com/30714137/179857022-703fa4b5-231e-4155-b626-f95c4681555b.png)
