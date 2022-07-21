@@ -4,7 +4,7 @@ A repository compiling SOTA methods in adversarial attacks, defenses, and measur
 Some of the first reported deep learning attacks were documented in Papernot et al. 2016. \
 ![Papernot-MNIST_attacks](https://user-images.githubusercontent.com/30714137/179857022-703fa4b5-231e-4155-b626-f95c4681555b.png)
 
-### *-box Attacks
+### Evasion Attacks
 Ground assumption: the model under attack has already been trained.
 
 #### White-box Attacks
